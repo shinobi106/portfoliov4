@@ -1,0 +1,171 @@
+#title{
+    background-color: #252A34;
+    color: #EAEAEA;
+}
+.heading{
+    font-family: 'Paytone One', sans-serif;
+    font-size: 6rem;
+    line-height: 1.5;
+    transition: 0.25s ease-in-out;
+    
+   
+}
+.heading:hover{
+    color: #FF2E63;
+}
+
+
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2{
+    font-family: 'Paytone One', sans-serif;
+    font-size: 3.5rem;
+    color: #FF2E63;
+}
+.p{
+    color: #8f8f8f
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+.body{
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+    
+}
+.nav-link{
+    font-size: 1.2rem;
+}
+
+/* buttons */
+
+.download-btn{
+    margin: 5% 3% 5% 0;
+}
+
+/* title img */
+
+.title-img{
+    width: 80%;
+    transform: rotate(5deg);
+    transition: 0.5s ease-in-out;
+}
+
+.title-img:hover{
+    transform:translate(15px,15px) ;
+}
+/* features */
+
+#features{
+    padding: 7% 15%;
+}
+
+.feat-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.icon{
+    color: #FF2E63;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #252A34;
+}
+@media(max-width: 900px){
+    #title{
+        text-align: center;
+    }
+    .heading{
+        font-size: 4rem;
+    }
+}
+
+#testimonials{
+    background-color: #252A34;
+    text-align: center;
+    }
+#press{
+    background-color: #252A34;
+}
+swap{
+    color: #FF2E63;
+}
+.pro{
+    width: 45%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+.disc{
+    color: #EAEAEA;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.web{
+    width: 70%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+#press{
+    background-color: #252A34;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.certificate{
+    width: 20%;
+    padding: 2%;
+}
+
+#pricing{
+    background-color: #EAEAEA;
+    text-align: center;
+    padding-bottom: 3%;
+    padding-top: 5%;
+}
+
+.new{
+    color: #252A34;
+}
+.skill{
+    padding-bottom: 5%;
+}
+
+
+/* animations */
+
+.crti1{
+    transition: 0.5s ease-in-out;
+}
+
+.crti1:hover{
+    width: 30%;
+}
+
+.crti2{
+    transition: 0.5s ease-in-out;
+}
+
+.crti2:hover{
+    width: 30%;
+}
+
+.d1{
+    transition: 0.5s ease-in-out;
+}
+.d1:hover{
+    transform: translate(10px,10px);
+}
+
