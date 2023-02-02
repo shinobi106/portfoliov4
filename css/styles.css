@@ -6,12 +6,13 @@
     font-family: 'Paytone One', sans-serif;
     font-size: 6rem;
     line-height: 1.5;
-    transition: 0.25s ease-in-out;
+    transition: 0.35s ease-in-out;
     
    
 }
 .heading:hover{
     color: #FF2E63;
+    text-shadow: #EAEAEA 2px 2px;
 }
 
 
@@ -57,12 +58,13 @@ h2{
 
 .title-img{
     width: 80%;
-    transform: rotate(5deg);
+    
     transition: 0.5s ease-in-out;
 }
 
 .title-img:hover{
     transform:translate(15px,15px) ;
+    transform: rotate(5deg);
 }
 /* features */
 
@@ -143,6 +145,37 @@ swap{
     padding-bottom: 5%;
 }
 
+#cta{
+    background-color: #FF2E63;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+.aboutt{
+    font-family: 'Paytone One', sans-serif;
+    font-size: 3.6rem;
+    color: #252A34;
+    padding-bottom: 3%;
+    transition: 0.35s ease-in-out;
+}
+
+.description{
+    color: #EAEAEA;
+}
+.think{
+    width: 80%;
+}
+
+#footer{
+    background-color: #252A34;
+    text-align: center; 
+}
+.copyright{
+    font-size: 1rem;
+    color: #EAEAEA;
+    padding-top: 10%;
+    padding-bottom: 1%;
+}
 
 /* animations */
 
@@ -169,3 +202,17 @@ swap{
     transform: translate(10px,10px);
 }
 
+.anime{
+    transition: 0.5s ease-in-out;
+}
+
+.anime:hover{
+    transform: translate(-10px,-10px);
+    box-shadow: #252A34 2px 2px 2px 2px;
+    text-shadow: 0.5px 0.5px;
+}
+
+.aboutt:hover{
+    text-shadow: #EAEAEA 2px 2px;
+    font-size: 4rem;
+}
